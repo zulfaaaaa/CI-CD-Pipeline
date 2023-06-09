@@ -21,3 +21,5 @@ jobs:
           cache: maven
       - name: Run Automation
         run: mvn clean verify
+      - name: Test API
+        run: mvn clean verify
